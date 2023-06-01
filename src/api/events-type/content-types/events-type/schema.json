@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events_types",
+  "info": {
+    "singularName": "events-type",
+    "pluralName": "events-types",
+    "displayName": "Events Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event",
+      "mappedBy": "Events_type"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

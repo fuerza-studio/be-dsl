@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_group_websites",
+  "info": {
+    "displayName": "Website",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Url": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

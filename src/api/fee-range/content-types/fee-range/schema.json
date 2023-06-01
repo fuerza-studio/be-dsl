@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fee_ranges",
+  "info": {
+    "singularName": "fee-range",
+    "pluralName": "fee-ranges",
+    "displayName": "Fee Range",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Value": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

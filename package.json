@@ -11,11 +11,15 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
     "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.5.5",
-    "pg": "8.8.0"
+    "pg": "8.8.0",
+    "@strapi/plugin-graphql": "4.10.5",
+    "@strapi/plugin-i18n": "4.10.5",
+    "@strapi/plugin-users-permissions": "4.10.5",
+    "@strapi/strapi": "4.10.5",
+    "better-sqlite3": "8.0.1",
+    "mysql": "^2.18.1",
+    "strapi-plugin-multi-select": "^1.1.0"
   },
   "author": {
     "name": "A Strapi developer"
